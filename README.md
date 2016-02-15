@@ -48,5 +48,5 @@ The following are screenshots of an example project. Note that these are intende
 * User input form page
 ![UserInputFromPage.png](images/UserInputFromPage.png)
 * Content (table-format) page(s)
-![ContentTableFormatPages.png](images/ContentTableFormatPages.png)![ContentTableFormatPages2.png](images/ContentTableFormatPages2.png)
+![ContentTableFormatPages.png](images/ContentTableFormatPages.png)![ContentTableFormatPage2.png](images/ContentTableFormatPages2.png)
 
