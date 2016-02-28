@@ -22,7 +22,9 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" language="javascript" src="standard-form.js"></script>
     <script src="bootstrap-3.3.6/docs/assets/js/ie-emulation-modes-warning.js"></script>
+    <script type="text/javascript" language="javascript" src="contact_form.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -43,29 +45,33 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project I</a>
+
+          <a class="logo" rel="home" href="#" title="The George Washington University">
+            <img src="gwu.png">
+          </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="members.html">Members</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+             
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li class="active"><a href="standard-form.html">Standard Form Validation</a></li>
+                <li><a href="#">Coming Soon?</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li class="dropdown-header">Would you like to know more?</li>
+                <li><a href="#">Ready Player One</a></li>
               </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+
 
     <!-- Begin page content -->
     <div class="container">
@@ -75,37 +81,108 @@
       <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
       <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
     </div>
-
 <div class="container">
-    <form role="form">
-
-    <form name='mainForm' id='mainForm' method='get' action='#'>
-    <!--   Refreshed lab06 assignment with Bootstrap, in cooperation w/ WC#
-           http://www.w3schools.com/bootstrap/bootstrap_navbar.asp -->
+    <form name='mainForm' id='mainForm' action="http://www.randyconnolly.com/tests/process.php" method="get">
       <fieldset>
         <legend>Required Information:</legend>
-        <!-- <div class='movingDiv'> -->
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input name="name" class="form-control" id="name" type="text" size="60">
+
+
+         <div class="form-group">
+          <label for= "first_name" class="control-label col-sm-4">First Name:</label>
+    
+          <input name="first_name"  id="first_name" type="text" size="30" class="required">
         </div>
-        <!-- <div class='movingDiv'> -->
+
         <div class="form-group">
-          <label for="email">Email</label>
-          <input name="email" class="form-control" id="email" type="text" size="60">
+          <label for= "last_name" class="control-label col-sm-4">Last Name:</label>
+    
+          <input name="last_name"  id="last_name" type="text" size="30" class="required">
+        </div>
+
+         <div class="form-group">
+          <label for= "email" class="control-label col-sm-4">E-mail:</label>
+    
+          <input name="email" id="email" type="text" size="30" class="required">
+        </div>
+
+        <div class="form-group">
+          <label for= "phone" class="control-label col-sm-4">Phone #:</label>
+    
+          <input name="phone" id="phone" type="text" size="30" class="required">
+        </div>
+
+         <div class="form-group">
+          <label for= "address" class="control-label col-sm-4">Address:</label>
+    
+          <input name="address" id="address" type="text" size="30" class="required">
+        </div>
+
+        <div class="form-group">
+          <label for= "city" class="control-label col-sm-4">City:</label>
+    
+          <input name="city" id="city" type="text" size="30" class="required">
+        </div>
+
+         <div class="form-group">
+          <label for= "state" class="control-label col-sm-4">State:</label>
+    
+          <input name="state" id="state" type="text" size="30" class="required">
+        </div>
+
+        <div class="form-group">
+          <label for= "zip_code" class="control-label col-sm-4">Zip Code:</label>
+    
+          <input name="zip_code" id="zip_code" type="text" size="30" class="required">
+        </div>
+
+         <div class="form-group">
+          <label for= "website" class="control-label col-sm-4">Website or Domain:</label>
+    
+          <input name="website" id="website" type="text" size="30" class="required">
+        </div>
+    
+         <div class="form-group">
+          <label for= "hosting" class="control-label col-sm-4">Do you have hosting?</label>
+    
+          <input name="hosting" id="hosting" type="text" size="30" class="required">
+        </div>
+
+        <div class="form-group">
+          <label for= "project" class="control-label col-sm-4">Project Description:</label>
+    
+          <input name="project" id="project" type="text" size="30" class="required">
         </div>
       </fieldset>
-      <fieldset>
+
+     <fieldset>
         <legend>Optional Information:</legend>
-        <!-- <div class='movingDiv'> -->
-        <div class="form-group">
-          <label for="how">How did you hear about us?</label>
+        <div class='movingDiv'>
+          <label for="how" class="col-md-4 control-label">How did you hear about us?</label>
           <input name="how" id="how" type="text" size="30">
         </div>
-      </fieldset>
-      <input type="submit" name="submit" value="Submit Form">
+      </fieldset><br>
+     
+      <button type="submit" class="btn btn-primary">Submit</button>
+  
     </form>
-  </div>
+
+
+    </div>
+
+  
+       
+  
+       
+        
+
+
+
+
+
+
+       
+      
+     
 
 
     <footer class="footer">
@@ -114,12 +191,8 @@
       </div>
     </footer>
 
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </footer>
 
+  
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
