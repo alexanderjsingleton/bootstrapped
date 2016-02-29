@@ -2,11 +2,6 @@
 
 This site proudly built [Bootstrap](http://getbootstrap.com/), an HTML5, CSS3 and JavaScript framework that is used in conjunction with another web application programming language and/or framework like [Ruby on Rails](http://rubyonrails.org/), or [php/Laravel](https://laravel.com/).
 
-*   Example linked provided:
-
-    *   If project folder is saved to user desktop, the landing-page is routed according to the following URL:
-
-        *   `Desktop/ISTM6205_Project1/index.html`
 *   User Stories: As a user I want to:
 
     *   Land on a welcome page featuring a prominent greeting navigation menu bar, a side-bar menu and a footer menu; the landing page will also include a section containing a button that directs to the documentation provided herein. In order optimize content appearance and layout while affording maximum responsiveness, the [Bootstrap (v3.3.6)](http://getbootstrap.com/getting-started/) framework will be utilized-more specifically, a rendition of the "Sticky Footer" theme. The landing page will be appropriately meta-tagged and include personal favicon.
