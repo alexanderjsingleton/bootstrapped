@@ -43,14 +43,6 @@ The Word document should briefly describe the functionality of your web applicat
 ###Example Project
 The following are screenshots of an example project. Note that these are intended to provide you an idea of how a web application could be designed to meet the above project description. However, this example project is by no means the only or the preferred way to develop your web application. You are expected to exercise creativity and critical judgment to develop your own web application. Remember that the quality of your solution will be taken into account when evaluating your work, as specified in the grading criteria above.
 
-* Homepage
-![Homepage.png](images/Homepage.png)
-* User input form page
-![UserInputFromPage.png](images/UserInputFromPage.png)
-* Content (table-format) page(s)
-![ContentTableFormatPages.png](images/ContentTableFormatPage2.png)![ContentTableFormatPage2.png](images/ContentTableFormatPages.png)
-
-
 ###Notes
 https://github.com/myprogrammingblog/myprogrammingblog.com/tree/master/UI%20Components/contact%20form/js
 
