@@ -2,8 +2,6 @@
 
 This site proudly built [Bootstrap](http://getbootstrap.com/), an HTML5, CSS3 and JavaScript framework that is used in conjunction with another web application programming language and/or framework like [Ruby on Rails](http://rubyonrails.org/), or [php/Laravel](https://laravel.com/).
 
-Project I Documentation by alexanderjsingleton
-
 *   Example linked provided:
 
     *   If project folder is saved to user desktop, the landing-page is routed according to the following URL:
@@ -129,7 +127,7 @@ Project I Documentation by alexanderjsingleton
     *   http://daringfireball.net/projects/markdown/dingus
     *   http://www.w3schools.com/bootstrap/bootstrap_buttons.asp
     
-    # GWMSIST
+# GWMSIST
 
 ## Project I Requirements
 
