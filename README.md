@@ -1,97 +1,116 @@
-# Project I Documentation
+# GWMSIST
 
-This site proudly built [Bootstrap](http://getbootstrap.com/), an HTML5, CSS3 and JavaScript framework that is used in conjunction with another web application programming language and/or framework like [Ruby on Rails](http://rubyonrails.org/), or [php/Laravel](https://laravel.com/).
+## Project I Documentation
 
-*   User Stories: As a user I want to:
+1.Requirements listed below documentation.
 
-    *   Land on a welcome page featuring a prominent greeting navigation menu bar, a side-bar menu and a footer menu; the landing page will also include a section containing a button that directs to the documentation provided herein. In order optimize content appearance and layout while affording maximum responsiveness, the [Bootstrap (v3.3.6)](http://getbootstrap.com/getting-started/) framework will be utilized-more specifically, a rendition of the "Sticky Footer" theme. The landing page will be appropriately meta-tagged and include personal favicon.
+2. Example link provided:
 
-    *   In order to accommodate the aforementioned, the most recent version of Bootstrap was downloaded and included with source files.
+    1. If project folder is saved to user desktop, the landing-page is routed according to the following URL:
 
-        *   The navigation-bar menu should feature an appropriate logo for the production, in addition to three tabs respectively navigating to "Register" and “Members” pages of the site, in addition to a “Dropdown” tab, which may feature three optional pages if need be.
+        1. `Desktop/ISTM6205_Project1/index.html `
 
-        *   The drop-down side-bar menu, will be statically located to the left-side of the page but allowed to float along the page if content length requires additional scrolling.
+3. User Stories: As a user I want to:
 
-            *   The side-bar area will be featured within a dedicated `div` tag, confined to a specified column width, containing hyperlinks via a-tags to the following pages and content:
+    2. Land on a welcome page featuring a prominent greeting navigation menu bar, a side-bar menu and a footer menu; the landing page will also include a section containing a button that directs to the documentation provided herein.  In order optimize content appearance and layout while affording maximum responsiveness, the [Bootstrap (v3.3.6)](http://getbootstrap.com/getting-started/) framework will be utilized-more specifically, a rendition of the "Sticky Footer" theme.   The landing page will be appropriately meta-tagged and include personal favicon.
 
-                *   GW MSIST Homepage
+    3. In order to accommodate the aforementioned, the most recent version of Bootstrap was downloaded and included with source files.
 
-                *   Project I Documentation
+        2. The navigation-bar menu should feature an appropriate logo for the production, in addition to three tabs respectively navigating to  "Register" and “Members” pages of the site,  in addition to a “Dropdown” tab, which may feature three optional pages if need be.
 
-                *   Project I Requirements
+        3. The drop-down side-bar menu, will be statically located to the left-side of the page but allowed to float along the page if content length requires additional scrolling.  
 
-                *   Project I Criteria
+            1. The side-bar area will be featured within a dedicated `div` tag, confined to a specified column width, containing hyperlinks via a-tags to the following pages and content:
 
-                *   Personal LinkedIn hyperlink
+                1. GW MSIST Homepage
 
-                *   Company website hyperlink
+                2. Project I Documentation
 
-                *   Personal website hyperlink
+                3. Project I Requirements
 
-                *   GitHub hyperlink
+                4. Project I Criteria
 
-                *   Email hyperlink
+                5. Personal LinkedIn hyperlink
 
-                    *   Please note, all Project I files are contained within the local file-folder as HTML documents styled with Bootstrap.
-        *   All of the aforementioned sections and menus (navigation-bar menu, footer menu and side-bar menu) are constituents of the general website layout.
+                6. Company website hyperlink
 
-    *   Upon clicking on the "Learn More Button" within the “jumbotron” div tag class enabled by Bootstrap, the user will land on the documentation provided herein.
+                7. Personal website hyperlink
 
-    *   Upon clicking on the "Register" tab within the navigation-bar menu, the user will be directed to a page featuring the page title, a subheader including a brief explanation, and then body content instructing the user to access the alternative form featuring standard form-validation with JavaScript.
+                8. GitHub hyperlink
 
-        *   The form-validation within the "Register section" is enabled by a version of [Modernizr](https://modernizr.com/download?setclasses) (JavaScript library similar to jQuery) performing form-validation via API (application program interface) calling the JavaScript validation functions remotely at the following [page](http://s.codepen.io/assets/libs/modernizr.js), currently hosted by codepen, a code repo similar to GitHub.
+                9. Email hyperlink
 
-        *   If the user were to test the validation without populating the necessary fields (in this case, all), the form will not process and flag required fields. However, if the user populates every field, albeit incorrectly, the form will not process as the Modernizr API accounts for all of the required formats listed.
+                    1. Please note, all Project I files are contained within the local file-folder as HTML documents styled with Bootstrap.
 
-            *   First Name
+        4. All of the aforementioned sections and menus (navigation-bar menu, footer menu and side-bar menu) are constituents of the general website layout.
 
-                *   >= 2 characters
-            *   Last Name
+    4. Upon clicking on the "Learn More Button" within the “jumbotron” div tag class enabled by Bootstrap, the user will land on the documentation provided herein.
 
-                *   >= 2 characters
-            *   E-mail
+    5. Upon clicking on the "Register" tab within the navigation-bar menu, the user will be directed to a page featuring the page title, a subheader including a brief explanation, and then body content instructing the user to access the alternative form featuring standard form-validation with JavaScript.
 
-                *   Must contain a "@" character in addition to valid domains.
-            *   Phone #
+        5. The form-validation within the "Register section" is enabled by a version of [Modernizr](https://modernizr.com/download?setclasses) (JavaScript library similar to jQuery) performing form-validation via API (application program interface) calling the JavaScript validation functions remotely at the following [page](http://s.codepen.io/assets/libs/modernizr.js), currently hosted by codepen, a code repo similar to GitHub.
 
-                *   Phone number must contain the numbers and parenthesized area-code.
-            *   Address
+        6. If the user were to test the validation without populating the necessary fields (in this case, all), the form will not process and flag required fields.  However, if the user populates every field, albeit incorrectly, the form will not process as the Modernizr API accounts for all of the required formats listed.
 
-                *   Must contain a specified set of characters, including at least one digit, street direction, street and street type.
-            *   City
+            2. First Name
 
-                *   Provided city must be accounted for within Modernizr database-API.
-            *   State
+                10. >= 2 characters
 
-                *   Must select a state within drop-down menu selection
-            *   Zip Code
+            3. Last Name
 
-                *   5 digits only, accounted for by Modernizer database-API
-            *   Website or Domain
+                11. >= 2 characters
 
-                *   No constraint
-            *   Do you have hosting?
+            4. E-mail
 
-                *   "Yes" or “No” radio buttons- only one must be select.
-            *   Project Description
+                12. Must contain a "@" character in addition to valid domains.
 
-                *   Constraint: input >10 characters <200
-        *   If the user appropriately populates all of the registration fields, upon hitting the "Send" action button, the user’s client submits an HTTP request to the server pointing at the [designated link]([http://www.randyconnolly.com/tests/process.php](http://www.randyconnolly.com/tests/process.php)), using the GET action method that requests data to be processed to a specified resource- in this case, the previously mentioned link. The data retrieved is collected according to the assigned tags input name-class tags featured within the div-class tag-group pertaining to each corresponding field (e.g. input name=”email” will be rendered as email=”[field input]”, which is effectively pointed by the subject server.
+            5. Phone #
 
-    *   Upon clicking the "Members" tab within the navigation-menu bar, the page features a corresponding table which will probably render the fields processed by the corresponding form in Project II (but I can only guess :) that is responsively formatted with a “table-responsive” div-class featured by Bootstrap. Essentially, the action method’s will be contained within each table-cell row, which will correspond to the column-name (e.g. the email id assigned by the GET action method should render in the corresponding table-row cell). The requirements specified static-seed data in the table, since we haven’t reviewed page dynamics yet, which if the book suggest will probably be facilitated by Ajax and php in Project II.
+                13. Phone number must contain the numbers and parenthesized area-code.
 
-    *   Upon hovering-over the "Dropdown" section of the navigation-bar menu, and selecting the “Standard Form Validation” tab within the “Dropdown” section-menu, the user will be directed to a page resembling the form stylized with Bootstrap, presented in the “Register” page also featuring validation. However, this form will only process if no field is blank and the email field contains a “@” character; please be advised, the validation constraints in this version aren’t as stringent as those defined by the Modernizr API verifying the form within the “Register” page. There is an optional field just below the required fields, which may be valid as blank since it is designated as “optional.” For the sake of education, the JavaScript code will be featured below the “Submit” as an object object, privately hosted GitHub gist but the validation from the source file-folder.
+            6. Address
 
-    *   Lastly, the footer menus on every page will link to the "Home" page, an “About” page featuring the project requirements and an experimental “Contact” form, also facilitated by Bootstrap styling, in addition to the action methods correspondingly assigned but doesn’t feature form-validation in Release 0, but more than likely in the next iteration.
+                14. Must contain a specified set of characters, including at least one digit, street direction, street and street type.
 
-*   Resources
+            7. City
 
-    *   Production schema and structure were verified by the following tools:
+                15. Provided city must be accounted for within Modernizr database-API.
 
-        *   [Google’s Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+            8. State
 
-        *   [and JSFIddle](https://jsfiddle.net/).
+                16. Must select a state within drop-down menu selection
 
+            9. Zip Code
+
+                17. 5 digits only, accounted for by Modernizer database-API
+
+            10. Website or Domain
+
+                18. No constraint
+
+            11. Do you have hosting?
+
+                19. "Yes" or “No” radio buttons- only one must be select.
+
+            12. Project Description
+
+                20. Constraint: input >10 characters <200
+
+        7. If the user appropriately populates all of the registration fields, upon hitting the "Send" action button, the user’s client submits an HTTP request to the server pointing at the [designated link]([http://www.randyconnolly.com/tests/process.php](http://www.randyconnolly.com/tests/process.php)), using the GET action method that requests data to be processed to a specified resource- in this case, the previously mentioned link.  The data retrieved is collected according to the assigned tags input name-class tags featured within the div-class tag-group pertaining to each corresponding field (e.g. <input name=”email” will be rendered as email=”[field input]”, which is effectively pointed by the subject server.
+
+    6. Upon clicking the "Members" tab within the navigation-menu bar, the page features a corresponding table which will probably render the fields processed by the corresponding form in Project II (but I can only guess :) that is responsively formatted with a “table-responsive” div-class featured by Bootstrap.  Essentially, the action method’s will be contained within each table-cell row, which will correspond to the column-name (e.g. the email id assigned by the GET action method should render in the corresponding table-row cell).  The requirements specified static-seed data in the table, since we haven’t reviewed page dynamics yet, which if the book suggest will probably be facilitated by Ajax and php in Project II.
+
+    7. Upon hovering-over the "Dropdown" section of the navigation-bar menu, and selecting the “Standard Form Validation” tab within the “Dropdown” section-menu, the user will be directed to a page resembling the form stylized with Bootstrap, presented in the “Register” page also featuring validation.  However, this form will only process if no field is blank and the email field contains a “@” character; please be advised, the validation constraints in this version aren’t as stringent as those defined by the Modernizr API verifying the form within the “Register” page.  There is an optional field just below the required fields, which may be valid as blank since it is designated as “optional.”  For the sake of education, the JavaScript code will be featured below the “Submit” as an object object, privately hosted GitHub gist but the validation from the source file-folder. 
+
+    8. Lastly, the footer menus on every page will link to the "Home" page, an “About” page featuring the project requirements and an experimental “Contact” form, also facilitated by Bootstrap styling, in addition to the action methods correspondingly assigned but doesn’t feature form-validation in Release 0, but more than likely in the next iteration.
+
+4. Additional Resources
+
+    9. Production schema and structure were verified by the following tools:
+
+        8. [Google’s Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+
+        9. [and JSFIddle](https://jsfiddle.net/).
     *   https://github.com/myprogrammingblog/myprogrammingblog.com/tree/master/UI%20Components/contact%20form/js
     *   http://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp
     *   http://www.w3schools.com/bootstrap/bootstrap_ref_css_tables.asp
