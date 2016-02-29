@@ -116,8 +116,90 @@
         <h1>Project I Documentation</h1>
       </div>
       <p class="lead">This site proudly built <a href="http://getbootstrap.com/">Bootstrap</a>, an HTML5, CSS3 and JavaScript framework that is used in conjunction with another web application programming language and/or framework like <a href="http://rubyonrails.org/">Ruby on Rails</a>, or  <a href="https://laravel.com/">php/Laravel</a>.</p>
-      <p>Back to  minus the navbar.</p>
-      <p></code> on the <code>body > .container</code>.</p>
+    
+    
+      <p>Project I Documentation by alexanderjsingleton</p>
+
+<ul>
+<li><p>Example linked provided:</p>
+
+<ul><li><p>If project folder is saved to user desktop, the landing-page is routed according to the following URL:</p>
+
+<ul><li><code>Desktop/ISTM6205_Project1/index.html</code></li></ul></li></ul></li>
+<li><p>User Stories: As a user I want to:</p>
+
+<ul><li><p>Land on a welcome page featuring a prominent greeting navigation menu bar, a side-bar menu and a footer menu; the landing page will also include a section containing a button that directs to the documentation provided herein.  In order optimize content appearance and layout while affording maximum responsiveness, the <a href="http://getbootstrap.com/getting-started/">Bootstrap (v3.3.6)</a> framework will be utilized-more specifically, a rendition of the "Sticky Footer" theme.   The landing page will be appropriately meta-tagged and include personal favicon.</p></li>
+<li><p>In order to accommodate the aforementioned, the most recent version of Bootstrap was downloaded and included with source files.</p>
+
+<ul><li><p>The navigation-bar menu should feature an appropriate logo for the production, in addition to three tabs respectively navigating to  "Register" and “Members” pages of the site,  in addition to a “Dropdown” tab, which may feature three optional pages if need be.</p></li>
+<li><p>The drop-down side-bar menu, will be statically located to the left-side of the page but allowed to float along the page if content length requires additional scrolling.  </p>
+
+<ul><li><p>The side-bar area will be featured within a dedicated <code>div</code> tag, confined to a specified column width, containing hyperlinks via a-tags to the following pages and content:</p>
+
+<ul><li><p>GW MSIST Homepage</p></li>
+<li><p>Project I Documentation</p></li>
+<li><p>Project I Requirements</p></li>
+<li><p>Project I Criteria</p></li>
+<li><p>Personal LinkedIn hyperlink</p></li>
+<li><p>Company website hyperlink</p></li>
+<li><p>Personal website hyperlink</p></li>
+<li><p>GitHub hyperlink</p></li>
+<li><p>Email hyperlink</p>
+
+<ul><li>Please note, all Project I files are contained within the local file-folder as HTML documents styled with Bootstrap.</li></ul></li></ul></li></ul></li>
+<li><p>All of the aforementioned sections and menus (navigation-bar menu, footer menu and side-bar menu) are constituents of the general website layout.</p></li></ul></li>
+<li><p>Upon clicking on the "Learn More Button" within the “jumbotron” div tag class enabled by Bootstrap, the user will land on the documentation provided herein.</p></li>
+<li><p>Upon clicking on the "Register" tab within the navigation-bar menu, the user will be directed to a page featuring the page title, a subheader including a brief explanation, and then body content instructing the user to access the alternative form featuring standard form-validation with JavaScript.</p>
+
+<ul><li><p>The form-validation within the "Register section" is enabled by a version of <a href="https://modernizr.com/download?setclasses">Modernizr</a> (JavaScript library similar to jQuery) performing form-validation via API (application program interface) calling the JavaScript validation functions remotely at the following <a href="http://s.codepen.io/assets/libs/modernizr.js">page</a>, currently hosted by codepen, a code repo similar to GitHub.</p></li>
+<li><p>If the user were to test the validation without populating the necessary fields (in this case, all), the form will not process and flag required fields.  However, if the user populates every field, albeit incorrectly, the form will not process as the Modernizr API accounts for all of the required formats listed.</p>
+
+<ul><li><p>First Name</p>
+
+<ul><li>>= 2 characters</li></ul></li>
+<li><p>Last Name</p>
+
+<ul><li>>= 2 characters</li></ul></li>
+<li><p>E-mail</p>
+
+<ul><li>Must contain a "@" character in addition to valid domains.</li></ul></li>
+<li><p>Phone #</p>
+
+<ul><li>Phone number must contain the numbers and parenthesized area-code.</li></ul></li>
+<li><p>Address</p>
+
+<ul><li>Must contain a specified set of characters, including at least one digit, street direction, street and street type.</li></ul></li>
+<li><p>City</p>
+
+<ul><li>Provided city must be accounted for within Modernizr database-API.</li></ul></li>
+<li><p>State</p>
+
+<ul><li>Must select a state within drop-down menu selection</li></ul></li>
+<li><p>Zip Code</p>
+
+<ul><li>5 digits only, accounted for by Modernizer database-API</li></ul></li>
+<li><p>Website or Domain</p>
+
+<ul><li>No constraint</li></ul></li>
+<li><p>Do you have hosting?</p>
+
+<ul><li>"Yes" or “No” radio buttons- only one must be select.</li></ul></li>
+<li><p>Project Description</p>
+
+<ul><li>Constraint: input >10 characters &lt;200</li></ul></li></ul></li>
+<li><p>If the user appropriately populates all of the registration fields, upon hitting the "Send" action button, the user’s client submits an HTTP request to the server pointing at the <a href="[http://www.randyconnolly.com/tests/process.php](http://www.randyconnolly.com/tests/process.php">designated link</a>), using the GET action method that requests data to be processed to a specified resource- in this case, the previously mentioned link.  The data retrieved is collected according to the assigned tags input name-class tags featured within the div-class tag-group pertaining to each corresponding field (e.g. input name=”email” will be rendered as email=”[field input]”, which is effectively pointed by the subject server.</p></li></ul></li>
+<li><p>Upon clicking the "Members" tab within the navigation-menu bar, the page features a corresponding table which will probably render the fields processed by the corresponding form in Project II (but I can only guess :) that is responsively formatted with a “table-responsive” div-class featured by Bootstrap.  Essentially, the action method’s will be contained within each table-cell row, which will correspond to the column-name (e.g. the email id assigned by the GET action method should render in the corresponding table-row cell).  The requirements specified static-seed data in the table, since we haven’t reviewed page dynamics yet, which if the book suggest will probably be facilitated by Ajax and php in Project II.</p></li>
+<li><p>Upon hovering-over the "Dropdown" section of the navigation-bar menu, and selecting the “Standard Form Validation” tab within the “Dropdown” section-menu, the user will be directed to a page resembling the form stylized with Bootstrap, presented in the “Register” page also featuring validation.  However, this form will only process if no field is blank and the email field contains a “@” character; please be advised, the validation constraints in this version aren’t as stringent as those defined by the Modernizr API verifying the form within the “Register” page.  There is an optional field just below the required fields, which may be valid as blank since it is designated as “optional.”  For the sake of education, the JavaScript code will be featured below the “Submit” as an object object, privately hosted GitHub gist but the validation from the source file-folder. </p></li>
+<li><p>Lastly, the footer menus on every page will link to the "Home" page, an “About” page featuring the project requirements and an experimental “Contact” form, also facilitated by Bootstrap styling, in addition to the action methods correspondingly assigned but doesn’t feature form-validation in Release 0, but more than likely in the next iteration.</p></li></ul></li>
+<li><p>Additional Resources</p>
+
+<ul><li><p>Production schema and structure were verified by the following tools:</p>
+
+<ul><li><p><a href="https://developers.google.com/structured-data/testing-tool/">Google’s Structured Data Testing Tool</a></p></li>
+<li><p><a href="https://jsfiddle.net/">and JSFIddle</a>.</p></li></ul></li></ul></li>
+</ul>
+
+
 
     </div>
 
